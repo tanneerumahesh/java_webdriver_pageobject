@@ -19,7 +19,7 @@ public class Base {
 	
 	@Before
 	public void BeforeTest(){
-		 System.setProperty("webdriver.chrome.driver","/Users/maheshtanneeru/Downloads/chromedriver");
+		 System.setProperty("webdriver.chrome.driver","chromedriver");
 		 ChromeOptions options = new ChromeOptions();
 		 options.addArguments("start-fullscreen");
 		 driver = new ChromeDriver(options);
